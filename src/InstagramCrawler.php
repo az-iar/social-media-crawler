@@ -1,4 +1,4 @@
-<?php
+<?php namespace Inneuron\SocialMediaCrawler;
 
 use Symfony\Component\DomCrawler\Crawler;
 

@@ -1,0 +1,23 @@
+{
+    "name": "az-iar/social-media-crawler",
+    "description": "Crawl basic user data from social media site.",
+    "license": "MIT",
+    "keywords": ["crawl", "social-media", "social-media-crawler"],
+    "authors": [
+        {
+            "name": "Azri Ismail",
+            "email": "mazri.iar@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/dom-crawler": "2.7.*@dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Inneuron\\SocialMediaCrawler\\": "src"
+        }
+    }
+}
