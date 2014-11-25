@@ -11,6 +11,6 @@ Install through composer:
 ## Usage
 
 ```php
-$crawler = new IntagramCrawler('http://instagram.com/username');
+$crawler = new InstagramCrawler('http://instagram.com/username');
 $data = $crawler->crawl();
 ```
